@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #218838;
+}
+
+.budget-summary {
+  margin-bottom: 20px;
+}
+
+.transactions {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transactions li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.transactions .income {
+  color: #28a745;
+}
+
+.transactions .expense {
+  color: #dc3545;
+}
+/* Add these styles to your existing CSS */
+.edit-group {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.edit-group input {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-group button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-group button#save-btn {
+  background: #007bff;
+  color: #fff;
+}
+
+.edit-group button#save-btn:hover {
+  background: #0056b3;
+}
+
+.edit-group button#cancel-btn {
+  background: #6c757d;
+  color: #fff;
+}
+
+.edit-group button#cancel-btn:hover {
+  background: #5a6268;
+}
